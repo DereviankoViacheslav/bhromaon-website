@@ -1,0 +1,36 @@
+.b-tools {
+    background-color: #333333;
+    text-align: center;
+    font-family: aleo, sans-serif;
+    font-size: 36px;
+
+    &__wrapper {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 107px;
+        padding-top: 100px;
+    }
+
+    &__search {
+        margin-right: 170px;
+    }
+
+    &__places {
+        margin-right: 170px;
+    }
+
+    &__img {
+        width: 62px;
+        height: 62px;
+        margin-bottom: 18px;
+        cursor: pointer;
+    }
+
+    &__title {
+        cursor: pointer;
+
+        &:hover {
+            text-shadow: 0 0 10px rgba(255, 255, 50, .9);
+        }
+    }
+}
