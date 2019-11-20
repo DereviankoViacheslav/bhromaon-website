@@ -1,0 +1,40 @@
+.b-navigation {
+  background-color: #5474fd;
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__logo {
+    padding-top: 30px;
+    padding-bottom: 25px;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 26px;
+  }
+}
+
+.b-nav-list {
+  list-style: none;
+
+  .b-nav-list__item {
+    display: inline-block;
+    margin-left: 40px;
+    font-family: aleo, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 26px;
+    text-transform: uppercase;
+
+    &:hover {
+      text-shadow: 0 0 5px rgba(0, 0, 0, .9);
+    }
+  }
+
+  &__item--link {
+    color: white;
+    text-decoration: none;
+  }
+}
