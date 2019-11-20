@@ -1,0 +1,63 @@
+.b-intro {
+  background: url("../img/bg-intro.jpg") center center no-repeat;
+  background-size: cover;
+
+  &__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 120px;
+    padding-bottom: 107px;
+  }
+
+  &__information {
+    margin-top: 75px;
+    flex-grow: 1;
+    flex-basis: 50%;
+  }
+
+  &__photos {
+    flex-grow: 1;
+    flex-basis: 50%;
+  }
+}
+
+.b-information {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  line-height: 26px;
+  font-weight: normal;
+  color: #e8e8e8;
+
+  &__title {
+    padding-bottom: 63px;
+    font-family: aleo, sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+  }
+
+  &__text {
+    padding-bottom: 25px;
+  }
+
+  &__button {
+    margin-top: 20px;
+    font-family: aleo, sans-serif;
+    letter-spacing: 1px;
+  }
+}
+
+.b-photos {
+  text-align: right;
+
+  &__photo--first {
+    margin-right: 125px;
+  }
+
+  &__photo {
+    &:hover {
+      cursor: pointer;
+      box-shadow: 0 0 10px rgba(255, 255, 255, .9);
+    }
+  }
+}
