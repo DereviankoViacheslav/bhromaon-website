@@ -1,0 +1,38 @@
+.b-main-footer {
+    background-color: #232323;
+    text-align: center;
+
+    &__title {
+        padding-top: 120px;
+        padding-bottom: 5px;
+        font-size: 24px;
+        font-weight: bold;
+        line-height: 26px;
+    }
+
+    &__subtitle {
+        padding-bottom: 23px;
+        line-height: 26px;
+        font-weight: normal;
+    }
+
+    &__social-links {
+        padding-bottom: 50px;
+    }
+}
+
+.b-social-links {
+    &__link {
+        text-decoration: none;
+        color: white;
+        margin: 0 10px;
+
+        &:hover {
+            text-shadow: 0 0 10px rgba(100, 100, 255, .9);
+        }
+    }
+
+    &__link:nth-child(3) {
+        color: #5474fd;
+    }
+}
