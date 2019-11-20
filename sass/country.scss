@@ -1,0 +1,50 @@
+.b-country {
+    &__wrapper {
+        padding-top: 230px;
+        padding-bottom: 105px;
+    }
+
+    &__wrapper--content-right {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+    }
+
+    &--first {
+        background: url("../img/country-1.jpg") center center no-repeat;
+        background-size: cover;
+    }
+
+    &--second {
+        background: url("../img/country-2.jpg") center center no-repeat;
+        background-size: cover;
+    }
+}
+
+.b-country-inform {
+    width: 540px;
+    padding: 50px 30px;
+    background-color: rgba(23, 23, 23, .9);
+    font-size: 20px;
+    font-weight: normal;
+    font-family: josefin_sans, sans-serif;
+
+    &__name {
+        font-size: 20px;
+        line-height: 20px;
+        padding-bottom: 30px;
+    }
+
+    &__title {
+        font-size: 20px;
+        font-weight: normal;
+        text-transform: uppercase;
+        padding-bottom: 23px;
+    }
+
+    &__text {
+        padding-bottom: 45px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
