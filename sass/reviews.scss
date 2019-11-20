@@ -1,0 +1,53 @@
+.b-reviews {
+    padding-top: 123px;
+    padding-bottom: 195px;
+    background: url("../img/bg-reviews.jpg") no-repeat;
+    background-size: cover;
+
+    &__title {
+        padding-bottom: 100px;
+        line-height: 26px;
+        font-size: 36px;
+        font-family: aleo, sans-serif;
+        font-weight: normal;
+        text-align: center;
+    }
+}
+
+.b-review {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-family: josefin-sans, sans-serif;
+
+    &__info {
+        background-color: #333333;
+        flex-basis: 560px;
+        flex-grow: 1;
+        padding: 45px 40px 40px 60px;
+    }
+
+    &__title {
+        padding-bottom: 40px;
+        font-size: 20px;
+        font-weight: normal;
+        line-height: 26px;
+        text-transform: uppercase;
+    }
+
+    &__text {
+        font-size: 14px;
+        line-height: 26px;
+        position: relative;
+        font-weight: normal;
+        text-indent: 30px;
+    }
+
+    &__quote {
+        position: absolute;
+        left: -30px;
+        top: -10px;
+        font-size: 22px;
+        color: #5474fd;
+    }
+}
